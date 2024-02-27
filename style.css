@@ -52,5 +52,12 @@ p {
         margin-top: 100px; /* Juster avstanden her */
         position: relative;
         left: 500px;
+
+        p {
+            color: white;
+            padding-top: 500px;
+            padding-bottom: 20px; /* lagt til manglende semikolon og rettet til padding */
+            line-height: 1.2; /* justerer linjeavstanden */
+        }
     }
 }
