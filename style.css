@@ -49,20 +49,18 @@ p {
 
 @media only screen and (max-width: 600px) {
     * {
-        height: 300px;
     }
     .andini-med-tørkle-i-hånden {
-        width: 300px;
+        width: 100px;
         length:auto;
         margin-top: 100px; /* Juster avstanden her */
         position: relative;
         left: 500px;
-
         p {
             color: white;
-            padding-top: 500px;
-            padding-bottom: 20px; /* lagt til manglende semikolon og rettet til padding */
-            line-height: 1.2; /* justerer linjeavstanden */
+            padding-top: 10px;
+            line-height: 0; /* justerer linjeavstanden */
+            
         }
     }
 }
