@@ -1,81 +1,56 @@
-body
-{background-color: black;}
+body {
+    background-color: black;
+}
 
-.holder-et-tørkle
-
-{
-    
+.holder-et-tørkle {
     width: 500px;
     margin-top: 100px; /* Juster avstanden her */
-    length:auto;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-position: relative;
-right: -100px;
-    }
-
-.andini-med-kanin-i-hånden
-
-{
-
-width: 500px;
-border-radius:50%;
-transform: rotate(5deg);
-length:auto
-
-
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: -100px;
 }
 
-
-h1 
-
-{
-
-        color: white;
-        text-shadow: 5px 2px blue;
-        text-align: center;
-        right: 500;
-
+.andini-med-kanin-i-hånden {
+    width: 500px;
+    border-radius: 50%;
+    transform: rotate(5deg);
 }
 
-.har-trylt-frem-en-kanin
-{
+h1 {
+    color: white;
+    text-shadow: 5px 2px blue;
+    text-align: center;
+}
+
+.har-trylt-frem-en-kanin {
     width: 500px;
     margin-top: 50px; /* Juster avstanden her */
-    length:auto;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-position: relative;
-right: -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: -100px;
 }
-p
 
-{color: white;
-    padding-top: 50px
-bottom 20px;
+p {
+    color: white;
+    padding-top: 500px;
+    padding-bottom: 20px; /* lagt til manglende semikolon og rettet til padding */
     line-height: 1.2; /* justerer linjeavstanden */
 }
 
-
 @media only screen and (max-width: 600px) {
     * {
-        height: 50px;
-        lengh
-       /* Plasserer bildet til høyre */
-        margin-top: 20px; 
-      
-  }
-  .andini-med-tørkle-i-honden
- {width: 500px;
-    margin-top: 100px; /* Juster avstanden her */
-    length:auto;
-    position: relative;
-left: 500px;
-} 
-  
+        height: 500px;
+    }
+    .andini-med-tørkle-i-hånden {
+        width: 500px;
+        margin-top: 100px; /* Juster avstanden her */
+        position: relative;
+        left: 500px;
+    }
 }
