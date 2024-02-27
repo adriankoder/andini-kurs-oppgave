@@ -39,8 +39,8 @@ h1 {
 p {
     color: white;
     padding-top: 10px;
-    padding-bottom: 20px; /* lagt til manglende semikolon og rettet til padding */
-    line-height: 1.2; /* justerer linjeavstanden */
+    padding-bottom: -5px; /* lagt til manglende semikolon og rettet til padding */
+    line-height: 0,1; /* justerer linjeavstanden */
 }
 
 @media only screen and (max-width: 600px) {
